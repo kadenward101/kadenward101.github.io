@@ -22,7 +22,7 @@ body {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -220px:
+  left: -220px;
   width: 220px;
   height: 100vh;
   background-color: #ffffff;
