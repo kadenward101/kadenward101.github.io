@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f9fafb;
-  color: #11187;
+  color: #111827;
   line-height: 1.6;
 }
 
@@ -64,6 +64,13 @@ h2 {
 .project p {
   margin-bottom: 0;
   color: #374151;
+}
+
+.project-image {
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  margin: 1rem 0;
 }
 
 footer {
