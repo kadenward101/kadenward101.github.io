@@ -6,39 +6,33 @@
   </head>
 
   <body>
-    <header> 
-      <h1> Kaden Ward </h1>
-      <p> Software Engineering Student </p>
-    </header>
+    <button class="menu-btn" onclick="toggleMenu()"></button>
 
-    <main>
-      <section>
-        <h2> Developed Projects</h2>
+    <div class="sidebar" id="sidebar">
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+    </div>
 
-        <div class="projects">
-          <div class="project">
-            <h3>
-              <a href="projects/gui-calculator.html">Calculator with GUI</a>
-            </h3>
-            <p>
-            A Python-based calculator application, with a Graphical User Interface (GUI) for user interaction.
-            </p>
-          </div>
+    <div class="landing">
+      <div class="color-band"></div>
 
-          <div class="project">
-            <h3> 
-              <a href="projects/movie-ticket-booking.html">Movie Ticket Booking System</a>
-            </h3>
-            <p>
-              A Python-based application which facilitates the booking and management of ticket sales for a movie theatre. 
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
+      <div class="content">
+        <img src="images/profile.jpg" alt="Profile Picture">
 
-    <footer>
-      <p> Developed By Kaden Ward</p>
-    </footer>
+        <h1>PROGRAMMING<br><span>PORTFOLIO</span></h1>
+
+        <p>
+          Placeholder Text for Introduction
+        </p>
+      </div>
+
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("open");
+      }                                      
+    </script>
   </body>
 </html>
