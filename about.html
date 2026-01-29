@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+
+    <button class="menu-btn" onclick="toggleMenu()"></button>
+
+    <div class="sidebar" id="sidebar">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+    </div>
+
+    <main style="max-width: 800px; margin: 4rem auto; padding; 0 1 rem;">
+      <h1>About Me</h1>
+
+      <p>
+        As a passionate Software Engineering student, I have developed a broad technical and software skillset which has a scope beyond just IT. This incorporates areas such as Engineering Graphics Design (EGD), Computer-Aided Design (CAD), and hands-on development through various personal projects.
+      </p>
+
+      <p>
+        I have a strong understanding and the ability to work with a range of programming languages, which I showcase on platforms such as this website portfolio I created using GitHub. This has also allowed me to broaden my knowledge of how these languages can create tangible solutions to users, which improve their daily interactions.
+      </p>
+
+      <p>
+        Outside of my academic studies, I have also gained real-world experience through my time working in the retail industry. This has allowed me to strengthen my problem-solving and communication skills through assisting retail staff with POS systems, as well as actively engaging with customers through providing relevant product knowledge.
+      </p>
+
+      <p>
+        Whether it's creating a new project, managing existing systems, or even collaborating with others to support and achieve common goals. I am a person who is always ready to learn, grow, and contribute.
+      </p>
+    </main>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("sidebar").classList.toggle("open");
+      }
+    </script>
+    
+  </body>
+</html>
