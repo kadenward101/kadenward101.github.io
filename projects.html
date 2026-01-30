@@ -8,9 +8,10 @@
   <body>
       <button class="menu-btn" onclick="toggleMenu()">Menu</button>
 
-      <div class="sidebar" id="sidebar">
+      <div class="sidebar">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
       </div>
 
       <main>
@@ -47,7 +48,7 @@
 
   <script>
     function toggleMenu() {
-      document.getElementById("sidebar").classList.toggle("open");
+      document.querySelector(".sidebar").classList.toggle("open");
     }
   </script>
     
