@@ -142,5 +142,42 @@ footer {
   font-size: 0.9rem;
 }
 
+.experience {
+  margin-top: 2rem;
+}
+
+.experience-item {
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.experience-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+.experience-meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.experience-item ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.experience-skills {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
 
 
