@@ -18,6 +18,7 @@ body {
   border: 1px solid #111827;
   padding: 5px 10px;
   cursor: pointer;
+  z-index: 1100;
 }
 
 .sidebar {
@@ -31,6 +32,7 @@ body {
   padding: 2rem 1.5rem;
   padding-top: 3rem;
   transition: left 0.3s ease;
+  z-index: 1000;
 }
 
 .sidebar.open {
