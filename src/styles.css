@@ -144,7 +144,17 @@ footer {
 }
 
 .experience {
-  margin-top: 2rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience h2 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .experience-item {
@@ -152,6 +162,8 @@ footer {
   padding: 1.5rem;
   border-radius: 6px;
   background-color: #ffffff;
+  max-width: 500px;
+  width: 100%;
 }
 
 .experience-item h3 {
