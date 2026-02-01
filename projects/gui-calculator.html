@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Calculator with GUI </title>
+    <title>Calculator with GUI</title>
     <link rel="stylesheet" href="../src/styles.css">
   </head>
-  
+
   <body>
-    <header>
-      <h1>Calculator with GUI </h1>
-    </header>
+
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+    <div class="top-banner">
+      <h1>Programming Portfolio</h1>
+    </div>
+
+    <div class="sidebar">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About Me</a>
+      <a href="../projects.html">Projects</a>
+    </div>
 
     <main>
-      <section>
+      <h1>Calculator with GUI</h1>
+
+      <section class="project-detail">
         <h2>Project Overview</h2>
         <p>
-          A Python-based calculator with a GUI; it allows users to interact with it via button clicking, as seen in the calculator application which is pre-installed on Windows devices. This calculator allows for basic arithmetic (addition, subtraction, multiplication, and division), as well as error handling in the instance of edge cases.
+          A Python-based calculator with a GUI; it allows users to interact with it via
+          button clicking, similar to the calculator application pre-installed on
+          Windows devices. The calculator supports basic arithmetic operations and
+          includes error handling for edge cases.
         </p>
-        
-        <h3>Technical Overview</h3>
+
+        <h2>Technical Overview</h2>
         <ul>
-          <li>Visual Studio Code</li>
-          <li>Jupyter Notebook Extension</li>
           <li>Python</li>
           <li>Tkinter</li>
+          <li>Visual Studio Code</li>
+          <li>Jupyter Notebook</li>
         </ul>
 
-        <h3>Source Code</h3>
+        <h2>Source Code</h2>
         <p>
           <a href="https://github.com/kadenward101/kadenward101.github.io/blob/main/src/calculator/GUI_Calculator.ipynb">
-            View Script on Github
+            View Script on GitHub
           </a>
         </p>
-        
-        <h3>Application Screenshot</h3>
-        <img 
-          src="../images/gui-calculator.png" 
-          alt="Calculator GUI for Client"
+
+        <h2>Application Screenshot</h2>
+        <img
+          src="../images/gui-calculator.png"
+          alt="Calculator GUI"
           class="project-image"
         />
-        
-        <p>
-          <a href="../index.html"> Back to Portfolio</a>
-        </p>
       </section>
-     </main>
+    </main>
 
     <footer>
-      <p>Developed By Kaden Ward</p>  
+      © 2026 Kaden Ward
     </footer>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".sidebar").classList.toggle("open");
+      }
+    </script>
+
   </body>
 </html>
