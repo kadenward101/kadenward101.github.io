@@ -4,63 +4,80 @@
     <title>Movie Ticket Booking System</title>
     <link rel="stylesheet" href="../src/styles.css">
   </head>
-  
-  <body>
-    <header> 
-      <h1>Movie Ticket Booking System</h1>
-    </header>
 
-    <main> 
-      <section>
+  <body>
+
+    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+
+    <div class="top-banner">
+      <h1>Programming Portfolio</h1>
+    </div>
+
+    <div class="sidebar">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About Me</a>
+      <a href="../projects.html">Projects</a>
+    </div>
+
+    <main>
+      <h1>Movie Ticket Booking System</h1>
+
+      <section class="project-detail">
         <h2>Project Overview</h2>
-        
         <p>
-          This project is a Python-based movie ticket booking application, which makes use of a client-server system architecture. This allows users to interact with a GUI, and for the server script to handle database interactions, such as ticket sales and client connections. The GUI client script also contains an admin interface to allow the adding, deleting, and updating of movie details. 
+          This project is a Python-based movie ticket booking application that
+          uses a client–server system architecture. Users interact with a GUI
+          client, while the server script manages database operations such as
+          ticket sales and client connections. An admin interface allows for
+          adding, deleting, and updating movie details.
         </p>
 
-        <h3>Technical Overview</h3>
+        <h2>Technical Overview</h2>
         <ul>
-          <li>Visual Studio Code</li>
           <li>Python</li>
-          <li>Jupyter Notebook Extension</li>
           <li>Tkinter</li>
           <li>Socket Programming</li>
-          <li>Multi-Threading</li>
+          <li>Multi-threading</li>
           <li>SQLite Database</li>
           <li>JSON</li>
+          <li>Visual Studio Code</li>
+          <li>Jupyter Notebook</li>
         </ul>
 
-        <h3>Source Code</h3>
+        <h2>Source Code</h2>
         <p>
           <a href="https://github.com/kadenward101/kadenward101.github.io/tree/main/src/movie-ticket-booking">
-            View Scripts on Github
+            View Scripts on GitHub
           </a>
         </p>
-    
-        <h3>Application Screenshots</h3>
+
+        <h2>Application Screenshots</h2>
 
         <p><strong>Client Script (GUI)</strong></p>
-        <img 
-          src="../images/client-main.png" 
+        <img
+          src="../images/client-main.png"
           alt="Movie Ticket Booking GUI"
-          class="project-image"
-          />
-
-        <p><strong>Ticket Receipt </strong></p>
-        <img 
-          src="../images/ticket-receipt.png" 
-          alt="Generated Ticket Receipt"
           class="project-image"
         />
 
-        <p>
-          <a href="../index.html"> Back to Portfolio</a>
-        </p>
+        <p><strong>Ticket Receipt</strong></p>
+        <img
+          src="../images/ticket-receipt.png"
+          alt="Generated Ticket Receipt"
+          class="project-image"
+        />
       </section>
     </main>
 
     <footer>
-      <p>Developed By Kaden Ward</p>
+      Developed By Kaden Ward
     </footer>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".sidebar").classList.toggle("open");
+      }
+    </script>
+
   </body>
 </html>
