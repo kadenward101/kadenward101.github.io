@@ -147,15 +147,17 @@ main {
 
 .project h3 {
   margin-top: 0;
+  font-size: 1.25rem;
 }
 
 .project a {
   text-decoration: none;
   color: #111827;
+  transition: color 0.2s ease;
 }
 
 .project a:hover {
-  text-decoration: underline;
+  color: #2563eb;
 }
 
 footer {
