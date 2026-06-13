@@ -1,58 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Kaden Ward | My Portfolio </title>
-    <link rel="stylesheet" href="src/styles.css">
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaden Suhail Ward | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-  <body>
-    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+<body>
 
-    <div class="top-banner">
-      <h1>Kaden Ward</h1>
+<header class="nav">
+    <div class="logo">KSW.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="role">SOFTWARE ENGINEER</p>
+        <h1>Kaden Ward</h1>
+        <p class="subtitle">
+            Software engineering student focused on building practical, secure and scalable systems.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn primary">View Work</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
     </div>
 
-    <div class="sidebar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="projects.html">Projects</a>
+    <div class="hero-card">
+        <pre>
+const developer = {
+  name: "Kaden Ward",
+  skills: ["Java", "Python", "JS", "SQL"],
+  focus: "Cybersecurity"
+};
+        </pre>
     </div>
+</section>
 
-    <div class="landing">
-  <div class="color-band"></div>
-
-  <div class="content">
-    <img src="images/profile.png" alt="Profile Picture">
-
-    <p class="greeting">Hello, I'm</p>
-
-    <h1>Kaden Ward</h1>
-
-    <p class="subtitle">
-      Software Engineering Student 
-    </p>
-
+<section id="about" class="section">
+    <h2>About</h2>
     <p>
-      Placeholder Text For Introduction
+        I’m a software engineering student interested in cybersecurity, backend development,
+        and building efficient systems. I enjoy solving problems and learning new technologies.
     </p>
+</section>
 
-    <div class="hero-buttons">
-      <a href="projects.html" class="btn-primary">View Projects</a>
-      <a href="about.html" class="btn-secondary">About Me</a>
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>TripBuddy</h3>
+            <p>Android travel planning app</p>
+            <span>Java • Android • SQLite</span>
+        </div>
+
+        <div class="card">
+            <h3>C2C Marketplace</h3>
+            <p>E-commerce platform</p>
+            <span>PHP • MySQL • JS</span>
+        </div>
+
+        <div class="card">
+            <h3>Cinema System</h3>
+            <p>Socket-based booking system</p>
+            <span>Python • JSON • SQLite</span>
+        </div>
     </div>
+</section>
 
-    <div class="social-links">
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div>
+            <h3>Languages</h3>
+            <p>Java • Python • JavaScript • SQL</p>
+        </div>
+
+        <div>
+            <h3>Tools</h3>
+            <p>Git • Linux • VS Code • Android Studio</p>
+        </div>
+
+        <div>
+            <h3>Cybersecurity</h3>
+            <p>Networking • Kali Linux • Pen Testing</p>
+        </div>
     </div>
+</section>
 
-  </div>
-</div>
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: kadenward101@gmail.com</p>
+</section>
 
-    <script>
-      function toggleMenu() {
-       document.querySelector(".sidebar").classList.toggle("open");
-      }                                      
-    </script>
-  </body>
+<footer>
+    <p>© 2026 Kaden Suhail Ward</p>
+</footer>
+
+</body>
 </html>
