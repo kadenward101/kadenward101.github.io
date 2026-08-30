@@ -1,60 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Projects</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Suhail Ward</title>
     <link rel="stylesheet" href="src/styles.css">
-  </head>
+</head>
 
-  <body>
-      <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+<body>
 
-      <div class="top-banner">
-        <h1>Programming Portfolio</h1>
-      </div>
+<header class="nav-container">
 
-      <div class="sidebar">
+    <div class="logo">
+        <a href="index.html">SW</a>
+    </div>
+
+    <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
         <a href="projects.html">Projects</a>
-      </div>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
 
-      <main>
-        <section>
-          <h2>Developed Projects</h2>
+</header>
 
-          <div class="projects">
-            <div class="project">
-              <h3>
-                <a href="projects/gui-calculator.html">Calculator with GUI</a>
-              </h3>
-              <p>
-                A Python-based calculator application, with a Graphical User Interface (GUI) for user interaction.
-              </p>
-            </div>
-            
-            <div class="project">
-              <h3>
-                <a href="projects/movie-ticket-booking.html">
-                  Movie Ticket Booking System
+<main>
+
+    <section class="section projects-page">
+
+        <p class="role">FEATURED WORK</p>
+
+        <h1>Projects</h1>
+
+        <p class="projects-intro">
+            A collection of software projects I have developed while
+            building my skills in programming, application development,
+            databases and software engineering.
+        </p>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Calculator with GUI</h3>
+
+                <p>
+                    A Python-based calculator application with a graphical
+                    user interface that allows users to perform calculations
+                    through an interactive interface.
+                </p>
+
+                <span>Python • Tkinter • GUI</span>
+
+                <a href="projects/gui-calculator.html" class="project-link">
+                    View Project →
                 </a>
-              </h3>
-              <p>
-                A Python-based application which facilitates the booking and management of ticket sales for a movie theatre. 
-              </p>
             </div>
-          </div>        
-        </section>
-    </main>
 
-  <footer>
-    <p>Developed By Kaden Ward</p>
-  </footer>
+            <div class="card">
+                <h3>Movie Ticket Booking System</h3>
 
-  <script>
-    function toggleMenu() {
-      document.querySelector(".sidebar").classList.toggle("open");
-    }
-  </script>
-    
-  </body>
+                <p>
+                    A Python-based application designed to facilitate the
+                    booking and management of movie tickets and cinema
+                    reservations.
+                </p>
+
+                <span>Python • JSON • SQLite</span>
+
+                <a href="projects/movie-ticket-booking.html" class="project-link">
+                    View Project →
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Suhail Ward</p>
+</footer>
+
+</body>
 </html>
