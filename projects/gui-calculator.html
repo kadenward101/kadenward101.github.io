@@ -1,69 +1,118 @@
-pe<!DOCTYPE html>
-<html>
-  <head>
-    <title>Calculator with GUI</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with GUI | Suhail Ward</title>
     <link rel="stylesheet" href="../src/styles.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+<header class="nav-container">
 
-    <div class="top-banner">
-      <h1>Programming Portfolio</h1>
+    <div class="logo">
+        <a href="../index.html">SW</a>
     </div>
 
-    <div class="sidebar">
-      <a href="../index.html">Home</a>
-      <a href="../about.html">About Me</a>
-      <a href="../projects.html">Projects</a>
-    </div>
+    <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Me</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#contact">Contact</a>
+    </nav>
 
-    <main>
-      <h1>Calculator with GUI</h1>
+</header>
 
-      <section class="project-detail">
-        <h2>Project Overview</h2>
-        <p>
-          A Python-based calculator with a GUI; it allows users to interact with it via
-          button clicking, similar to the calculator application pre-installed on
-          Windows devices. The calculator supports basic arithmetic operations and
-          includes error handling for edge cases.
-        </p>
+<main>
 
-        <h2>Technical Overview</h2>
-        <ul>
-          <li>Python</li>
-          <li>Tkinter</li>
-          <li>Visual Studio Code</li>
-          <li>Jupyter Notebook</li>
-        </ul>
+    <section class="section project-detail-page">
 
-        <h2>Source Code</h2>
-        <p>
-          <a href="https://github.com/kadenward101/kadenward101.github.io/blob/main/src/calculator/GUI_Calculator.ipynb">
-            View Script on GitHub
-          </a>
-        </p>
+        <a href="../projects.html" class="back-link">← Back to Projects</a>
 
-        <h2>Application Screenshot</h2>
-        <img
-          src="../images/gui-calculator.png"
-          alt="Calculator GUI"
-          class="project-image"
-        />
-      </section>
-    </main>
+        <div class="project-detail-header">
 
-    <footer>
-      Developed By Kaden Ward
-    </footer>
+            <p class="role">PYTHON APPLICATION</p>
 
-    <script>
-      function toggleMenu() {
-        document.querySelector(".sidebar").classList.toggle("open");
-      }
-    </script>
+            <h1>Calculator with GUI</h1>
 
-  </body>
+            <p class="project-summary">
+                A Python-based calculator application with a graphical user
+                interface that allows users to perform basic arithmetic
+                calculations through an interactive button-based interface.
+            </p>
+
+        </div>
+
+        <div class="project-detail-content">
+
+            <div class="project-info">
+
+                <section class="project-detail-section">
+                    <h2>Project Overview</h2>
+
+                    <p>
+                        This project is a Python-based calculator with a graphical
+                        user interface. It allows users to interact with the
+                        calculator through button clicks, similar to the calculator
+                        application available on Windows devices.
+                    </p>
+
+                    <p>
+                        The application supports basic arithmetic operations and
+                        includes error handling to manage invalid calculations and
+                        other edge cases.
+                    </p>
+                </section>
+
+                <section class="project-detail-section">
+                    <h2>Technologies Used</h2>
+
+                    <div class="tech-list">
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>VS Code</span>
+                        <span>Jupyter Notebook</span>
+                    </div>
+                </section>
+
+                <section class="project-detail-section">
+                    <h2>Source Code</h2>
+
+                    <a
+                        href="https://github.com/kadenward101/kadenward101.github.io/blob/main/src/calculator/GUI_Calculator.ipynb"
+                        class="btn primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View on GitHub
+                    </a>
+                </section>
+
+            </div>
+
+            <div class="project-visual">
+
+                <p class="visual-label">APPLICATION PREVIEW</p>
+
+                <img
+                    src="../images/gui-calculator.png"
+                    alt="Calculator GUI application interface"
+                    class="project-image"
+                />
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Suhail Ward</p>
+</footer>
+
+</body>
 </html>
